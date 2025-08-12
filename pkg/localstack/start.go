@@ -20,9 +20,6 @@ const (
 	defaultImage = "localstack/localstack"
 	// the single service port that LocalStack exposes by default
 	entryPort = "4566/tcp"
-	// range of additional service ports
-	portRangeStart = 4510
-	portRangeEnd   = 4559
 	// how long we’ll wait for pull+create operations
 	operationTimeout = 2 * time.Minute
 )
@@ -49,18 +46,14 @@ func NewRunner(cli *client.Client) (*Runner, error) {
 		Cli:          cli,
 		ImageURL:     defaultImageURL,
 		Image:        defaultImage,
-		PortBindings: buildPortMap(),
+		PortBindings: buildPortBindings(),
 	}, nil
 }
 
-// buildPortMap generates the same 4566 + 4510-4559 => 127.0.0.1 bindings.
-func buildPortMap() nat.PortMap {
+// buildPortBindings automatically generates the port bindings for LocalStack.
+func buildPortBindings() nat.PortMap {
 	pm := nat.PortMap{
-		nat.Port(entryPort): {{HostIP: "127.0.0.1", HostPort: "4566"}},
-	}
-	for p := portRangeStart; p <= portRangeEnd; p++ {
-		port := nat.Port(fmt.Sprintf("%d/tcp", p))
-		pm[port] = []nat.PortBinding{{HostIP: "127.0.0.1", HostPort: fmt.Sprint(p)}}
+		"4566/tcp": {{HostIP: "127.0.0.1", HostPort: ""}}, // let Docker assign
 	}
 	return pm
 }
