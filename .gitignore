@@ -23,3 +23,13 @@ go.work.sum
 
 # env file
 .env
+
+# Terraform-specific files
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# tf lock file
+.terraform.lock.hcl

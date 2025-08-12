@@ -1,10 +1,3 @@
-# `localstack-helpers`
-
-Go client for managing LocalStack containers during Terraform tests.
-
-## Example
-
-```go
 package test
 
 import (
@@ -17,17 +10,17 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestTerraformWithLocalStack(t *testing.T) {
+func TestS3BucketWithLocalStack(t *testing.T) {
 	t.Parallel()
 
 	ctx := context.Background()
 
-    // Create a Docker client
+	// Create a Docker client
 	cli, err := client.NewClientWithOpts(client.FromEnv, client.WithAPIVersionNegotiation())
 	assert.NoError(t, err)
 	defer func() { _ = cli.Close() }()
 
-    // Start LocalStack
+	// Start LocalStack container
 	runner, err := localstack.NewRunner(cli)
 	assert.NoError(t, err)
 
@@ -35,11 +28,10 @@ func TestTerraformWithLocalStack(t *testing.T) {
 	assert.NoError(t, err)
 	assert.NotEmpty(t, containerID)
 
-    // Run Terratests
+	// Run Terratest with Terraform options
 	tfOptions := &terraform.Options{
-		TerraformDir: "../../examples/complete",
+		TerraformDir: ".",
 		Upgrade:      true,
-		VarFiles:     []string{"fixtures.us-east-2.tfvars"},
 	}
 
 	defer terraform.Destroy(t, tfOptions)

@@ -53,7 +53,7 @@ func NewRunner(cli *client.Client) (*Runner, error) {
 // buildPortBindings automatically generates the port bindings for LocalStack.
 func buildPortBindings() nat.PortMap {
 	pm := nat.PortMap{
-		"4566/tcp": {{HostIP: "127.0.0.1", HostPort: ""}}, // let Docker assign
+		entryPort: {{HostIP: "127.0.0.1", HostPort: ""}}, // let Docker assign
 	}
 	return pm
 }
