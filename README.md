@@ -45,3 +45,4 @@ func TestTerraformWithLocalStack(t *testing.T) {
 	defer terraform.Destroy(t, tfOptions)
 	terraform.InitAndApply(t, tfOptions)
 }
+```
