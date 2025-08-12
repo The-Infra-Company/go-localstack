@@ -1,6 +1,6 @@
 # `localstack-helpers`
 
-Go client for managing LocalStack containers during Terraform tests.
+Go client for managing LocalStack in testing environments.
 
 ## Example
 
