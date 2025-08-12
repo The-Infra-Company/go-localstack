@@ -1,4 +1,4 @@
-# `localstack-helpers`
+<img width="1228" height="203" alt="Screenshot_2025-08-11_at_11 48 02_PM-removebg-preview" src="https://github.com/user-attachments/assets/5bcfafe2-f2b9-467a-b45e-98c12f3c7db8" />
 
 Go client for managing LocalStack in testing environments.
 
