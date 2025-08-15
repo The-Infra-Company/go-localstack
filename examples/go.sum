@@ -2,10 +2,10 @@ github.com/Azure/go-ansiterm v0.0.0-20250102033503-faa5f7b0171c h1:udKWzYgxTojEK
 github.com/Azure/go-ansiterm v0.0.0-20250102033503-faa5f7b0171c/go.mod h1:xomTg63KZ2rFqZQzSB4Vz2SUXa1BpHTVz9L5PTmPC4E=
 github.com/Microsoft/go-winio v0.4.14 h1:+hMXMk01us9KgxGb7ftKQt2Xpf5hH/yky+TDA+qxleU=
 github.com/Microsoft/go-winio v0.4.14/go.mod h1:qXqCSQ3Xa7+6tgxaGTIe4Kpcdsi+P8jBhyzoq1bpyYA=
-github.com/The-Infra-Company/localstack-helpers v0.0.0-20250423202631-126afd8bed9f h1:VlONRxrTkwuEjrQQUx2mhiZuCv9iHZPboHPeEUcpA30=
-github.com/The-Infra-Company/localstack-helpers v0.0.0-20250423202631-126afd8bed9f/go.mod h1:y4vkAD18QQns2ICGGQzf1CEFEQXAXR0vnwyosqsqqDo=
-github.com/The-Infra-Company/localstack-helpers v0.1.0 h1:1qqrkoWTPzsQPV2c254O5sufzXtlBdCKIvGY1CeWJtQ=
-github.com/The-Infra-Company/localstack-helpers v0.1.0/go.mod h1:y4vkAD18QQns2ICGGQzf1CEFEQXAXR0vnwyosqsqqDo=
+github.com/RoseSecurity/go-localstack v0.3.0 h1:E2hUwhCVgm4qjM38uUxV11BwWAalgJvo+0ODckay5vQ=
+github.com/RoseSecurity/go-localstack v0.3.0/go.mod h1:1L9PpBZ29MzrzVMm02lE2EFsrk3qA3lOBXGH3FMNaLM=
+github.com/The-Infra-Company/localstack-helpers v0.2.0 h1:IVcwm02gVE9tQRgQM50/Kb202pX2VXSbqtTwL6umK1g=
+github.com/The-Infra-Company/localstack-helpers v0.2.0/go.mod h1:y4vkAD18QQns2ICGGQzf1CEFEQXAXR0vnwyosqsqqDo=
 github.com/agext/levenshtein v1.2.3 h1:YB2fHEn0UJagG8T1rrWknE3ZQzWM06O8AMAatNn7lmo=
 github.com/agext/levenshtein v1.2.3/go.mod h1:JEDfjyjHDjOF/1e4FlBE/PkbqA9OfWu2ki2W0IB5558=
 github.com/apparentlymart/go-textseg/v15 v15.0.0 h1:uYvfpb3DyLSCGWnctWKGj857c6ew1u1fNQOlOtuGxQY=
@@ -163,7 +163,6 @@ golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5h
 golang.org/x/sys v0.0.0-20190412213103-97732733099d/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20190507160741-ecd444e8653b/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
-golang.org/x/sys v0.0.0-20210616094352-59db8d763f22/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.34.0 h1:H5Y5sJ2L2JRdyv7ROF1he/lPdvFsd0mJHFw2ThKHxLA=
 golang.org/x/sys v0.34.0/go.mod h1:BJP2sWEmIv4KK5OTEluFJCKSidICx8ciO85XgH3Ak8k=
 golang.org/x/term v0.33.0 h1:NuFncQrRcaRvVmgRkvM3j/F00gWIAlcmlB8ACEKmGIg=

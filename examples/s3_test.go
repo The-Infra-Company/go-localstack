@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/The-Infra-Company/localstack-helpers/pkg/localstack"
+	"github.com/RoseSecurity/go-localstack/localstack"
 	"github.com/docker/docker/client"
 	"github.com/gruntwork-io/terratest/modules/terraform"
 	"github.com/stretchr/testify/assert"
