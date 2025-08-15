@@ -3,7 +3,7 @@ module test
 go 1.24.6
 
 require (
-	github.com/RoseSecurity/go-localstack v0.3.0
+	github.com/RoseSecurity/go-localstack v0.4.0
 	github.com/docker/docker v28.3.3+incompatible
 	github.com/gruntwork-io/terratest v0.50.0
 	github.com/stretchr/testify v1.10.0

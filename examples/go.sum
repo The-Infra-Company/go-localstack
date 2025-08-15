@@ -4,6 +4,8 @@ github.com/Microsoft/go-winio v0.4.21 h1:+6mVbXh4wPzUrl1COX9A+ZCvEpYsOBZ6/+kwDnv
 github.com/Microsoft/go-winio v0.4.21/go.mod h1:JPGBdM1cNvN/6ISo+n8V5iA4v8pBzdOpzfwIujj1a84=
 github.com/RoseSecurity/go-localstack v0.3.0 h1:E2hUwhCVgm4qjM38uUxV11BwWAalgJvo+0ODckay5vQ=
 github.com/RoseSecurity/go-localstack v0.3.0/go.mod h1:1L9PpBZ29MzrzVMm02lE2EFsrk3qA3lOBXGH3FMNaLM=
+github.com/RoseSecurity/go-localstack v0.4.0 h1:r3PB+JNFipI99vGAVnfAS9T8EZp4G7dKeXQCui1zJOk=
+github.com/RoseSecurity/go-localstack v0.4.0/go.mod h1:8RUtVTafB1rwcpHAjMR2teDeVyMcSfFmSstltYjDPh8=
 github.com/The-Infra-Company/localstack-helpers v0.2.0 h1:IVcwm02gVE9tQRgQM50/Kb202pX2VXSbqtTwL6umK1g=
 github.com/The-Infra-Company/localstack-helpers v0.2.0/go.mod h1:y4vkAD18QQns2ICGGQzf1CEFEQXAXR0vnwyosqsqqDo=
 github.com/agext/levenshtein v1.2.3 h1:YB2fHEn0UJagG8T1rrWknE3ZQzWM06O8AMAatNn7lmo=

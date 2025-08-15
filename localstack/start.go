@@ -1,3 +1,5 @@
+// Package localstack provides utilities to start and manage LocalStack containers using Docker.
+// LocalStack is a cloud service emulator that runs in a single container for development and testing.
 package localstack
 
 import (
