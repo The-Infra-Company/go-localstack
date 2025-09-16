@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/The-Infra-Company/localstack-helpers/pkg/localstack"
+	"github.com/The-Infra-Company/go-localstack"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/image"
 	"github.com/docker/docker/client"
